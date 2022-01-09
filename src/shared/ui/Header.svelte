@@ -12,6 +12,7 @@
     header {
         height: 60px;
         padding: 16px 24px;
+        color: var(--black);
         font-size: 24px;
         font-weight: bold;
         border-bottom: 1px solid #f5f5f5;

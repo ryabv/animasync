@@ -90,12 +90,12 @@
                 <Input
                     id="container-shadow-opacity"
                     type="number"
-                    placeholder="0.5"
+                    placeholder="50"
                     name="containerBoxShadowOpacity"
                     on:change={editorValues.updateByName}
                     bind:value={$editorValues.containerBoxShadowOpacity}
-                    step={0.01}
-                    max={1}
+                    step={1}
+                    max={100}
                     meta="%"
                 />
             </Label>

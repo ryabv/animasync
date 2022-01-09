@@ -1,10 +1,10 @@
 <script lang="ts">
     export let size: 'small' | 'medium' = 'medium';
-    export let active: boolean;
+    export let active: boolean = false;
     export let variant: 'outlined' | 'transparent' = 'transparent';
-    export let value: string | number;
+    export let value: string | number = '';
     export let disabled: boolean = false;
-    export let name: string;
+    export let name: string = '';
 
     let className: string;
     export { className as class };
@@ -52,6 +52,7 @@
     .size-small {
         width: 16px;
         height: 16px;
+        border-radius: 2px;
     }
 
     .variant-outlined {
