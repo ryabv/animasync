@@ -1,10 +1,13 @@
 <script lang="ts">
     import { onMount } from 'svelte';
+    import cn from 'classnames';
 
     export let placeholder: string = '#ffffff';
     export let value: string;
     export let id: string = '';
     export let name: string = '';
+    let className: string = '';
+    export {className as class};
 
     let focused = false;
     let input;
@@ -17,7 +20,7 @@
     const focusOnInput = () => input.focus();
 </script>
 
-<div class="input-container" class:focused on:click={focusOnInput}>
+<div class={cn("input-container", [className])} class:focused on:click={focusOnInput}>
     <input
         type="color"
         bind:this={metaElem}

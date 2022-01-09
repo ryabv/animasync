@@ -5,7 +5,8 @@
         ContainerSection,
         SkeletonSection,
         LoadingLineSection,
-        editorValues,
+        ConfigurableBackground,
+        Skeleton,
     } from 'entities/editor/index.ts';
 </script>
 
@@ -22,7 +23,11 @@
 
             <LoadingLineSection />
         </aside>
-        <div class="playground"></div>
+        <div class="playground">
+            <ConfigurableBackground>
+                <Skeleton />
+            </ConfigurableBackground>
+        </div>
         <aside class="sidebar"></aside>
     </main>
 </div>
@@ -52,6 +57,7 @@
     }
 
     .playground {
+        width: 300px;
         flex: 1 1 auto;
     }
 

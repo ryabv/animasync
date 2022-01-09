@@ -1,4 +1,4 @@
 export const Alignment = {
-    LEFT: 'left',
-    RIGHT: 'right',
+    LEFT: 'flex-start',
+    RIGHT: 'flex-end',
 };
