@@ -6,3 +6,4 @@ export { default as LoadingLineSection } from './LoadingLineSection.svelte';
 export { default as ConfigurableBackground } from './ConfigurableBackground.svelte';
 export { default as Skeleton } from './Skeleton.svelte';
 export { default as SkeletonElement } from './SkeletonElement.svelte';
+export { default as EditElementSection } from './EditElementSection.svelte';

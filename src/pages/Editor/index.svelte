@@ -7,6 +7,7 @@
         LoadingLineSection,
         ConfigurableBackground,
         Skeleton,
+        EditElementSection,
     } from 'entities/editor/index.ts';
 </script>
 
@@ -28,7 +29,9 @@
                 <Skeleton />
             </ConfigurableBackground>
         </div>
-        <aside class="sidebar"></aside>
+        <aside class="sidebar">
+            <EditElementSection />
+        </aside>
     </main>
 </div>
 

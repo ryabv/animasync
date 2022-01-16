@@ -1,4 +1,4 @@
-import { writable } from 'svelte/store';
+import {writable} from 'svelte/store';
 import { Alignment } from './types';
 
 const createEditorValues = () => {
@@ -36,10 +36,10 @@ const createEditorValues = () => {
 export const editorValues = createEditorValues();
 
 
-const createElemets = () => {
+const createElements = () => {
     let uid = 1;
     const { subscribe, update } = writable([
-        { id: uid++, width: 100, height: 40, active: false },
+        { id: uid++, width: 13.5, height: 40, borderRadius: 40, active: false },
         { id: uid++, width: 70, height: 25, active: false },
         { id: uid++, width: 30, height: 25, active: false },
         { id: uid++, width: 100, height: 200, active: false },
@@ -93,4 +93,4 @@ const createElemets = () => {
     };
 };
 
-export const elements = createElemets();
+export const elements = createElements();

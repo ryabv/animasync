@@ -2,29 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62a7a832-f25f-4d24-b58c-99aff501a86e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/entities/editor/model/lib.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/editor/ui/ConfigurableBackground.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/editor/ui/Skeleton.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/editor/ui/SkeletonElement.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/Plus.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/assets/Trash.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/lib/outsideClick.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/editor/model/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/editor/ui/EditElementSection.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entities/editor/model/stores.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/model/stores.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/editor/model/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/model/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/editor/ui/ContainerSection.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/ui/ContainerSection.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/editor/ui/Skeleton.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/ui/Skeleton.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/editor/ui/SkeletonElement.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/ui/SkeletonElement.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entities/editor/ui/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/ui/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Editor/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Editor/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/assets/Arrow.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/assets/Arrow.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/assets/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/assets/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/ColorInput.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/ColorInput.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/Header.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/ui/IconButton.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/IconButton.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/lib/outsideClick.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +47,11 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/entities/editor/ui" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -77,6 +65,9 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="62a7a832-f25f-4d24-b58c-99aff501a86e" name="Changes" comment="" />
@@ -91,8 +82,18 @@
       <workItem from="1641300649726" duration="18650000" />
       <workItem from="1641333072847" duration="19693000" />
       <workItem from="1641722450041" duration="17314000" />
+      <workItem from="1642333636011" duration="432000" />
+      <workItem from="1642334145626" duration="537000" />
+      <workItem from="1642334740159" duration="108000" />
+      <workItem from="1642334871593" duration="9000" />
+      <workItem from="1642334885115" duration="28000" />
+      <workItem from="1642334923005" duration="284000" />
+      <workItem from="1642335209122" duration="3426000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -105,7 +106,51 @@
                   <entry key="Show.Git.Branches" value="false" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
