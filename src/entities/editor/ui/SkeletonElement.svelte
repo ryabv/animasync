@@ -7,6 +7,7 @@
     export let width;
     export let height;
     export let active;
+    export let borderRadius;
 
     $: elementStyles = objToCssString({
         cursor: 'pointer',
@@ -14,10 +15,10 @@
         height: height + 'px',
         width: width + '%',
         background: active ? 'var(--blue)' : $ev.skeletonBackground,
-        "border-radius": $ev.skeletonBorderRadius + 'px',
+        "border-radius": borderRadius + 'px',
     });
 
-    $:controlsStyles = objToCssString({
+    $: controlsStyles = objToCssString({
         position: 'absolute',
         top: 0,
         display: 'flex',
@@ -28,7 +29,7 @@
         gap: 4 + 'px',
     });
 
-    $:percentsStyles = objToCssString({
+    $: percentsStyles = objToCssString({
         position: 'absolute',
         top: 0,
         padding: '6px 8px',

@@ -1,7 +1,7 @@
 <script>
     import { Plus } from 'shared/assets/index.ts';
     import { editorValues as ev, elements, objToCssString, hexToRgba, getBoxShadow } from '../model/index.ts';
-    import { SkeletonElement } from './index.ts';
+    import SkeletonElement from './SkeletonElement.svelte';
 
     $: containerStyles = objToCssString({
         width: $ev.settingsContainerMinWidth + 'px',
@@ -28,12 +28,13 @@
 
 <div class="container" style={containerStyles} on:click={elements.deactivateAll}>
     <div style={innerStyles}>
-        {#each $elements as { id, width, height, active }}
+        {#each $elements as { id, width, height, active, borderRadius }}
             <SkeletonElement
                 id={id}
                 width={width}
                 height={height}
                 active={active}
+                borderRadius={borderRadius || $ev.skeletonBorderRadius}
                 on:click={elements.activate}
             />
         {/each}
