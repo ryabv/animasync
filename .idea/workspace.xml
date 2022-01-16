@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62a7a832-f25f-4d24-b58c-99aff501a86e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/entities/editor/ui/EditElementSection.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/editor/model/stores.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/model/stores.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/editor/ui/Skeleton.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/ui/Skeleton.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/editor/ui/SkeletonElement.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/ui/SkeletonElement.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/editor/ui/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/ui/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Editor/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Editor/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/lib/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/lib/outsideClick.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +42,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/entities/editor/ui" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -88,7 +79,7 @@
       <workItem from="1642334871593" duration="9000" />
       <workItem from="1642334885115" duration="28000" />
       <workItem from="1642334923005" duration="284000" />
-      <workItem from="1642335209122" duration="3426000" />
+      <workItem from="1642335209122" duration="4432000" />
     </task>
     <servers />
   </component>
