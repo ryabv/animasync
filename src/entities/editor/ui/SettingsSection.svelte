@@ -1,5 +1,5 @@
 <script>
-    import { Label, Input, ColorInput } from 'shared/ui/index.ts';
+    import { Label, Input } from 'shared/ui/index.ts';
 
     import { editorValues } from '../model/index.ts';
     import AlignButtons from './AlignButtons.svelte';
@@ -54,15 +54,6 @@
             name="settingsElementsGap"
             on:change={editorValues.updateByName}
             bind:value={$editorValues.settingsElementsGap}
-        />
-    </Label>
-
-    <Label id="elements-background" text="Elements background">
-        <ColorInput
-            id="elements-background"
-            name="settingsElementsBg"
-            on:change={editorValues.updateByName}
-            bind:value={$editorValues.settingsElementsBg}
         />
     </Label>
 </EditorAccordion>

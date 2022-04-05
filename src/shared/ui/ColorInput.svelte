@@ -57,10 +57,6 @@
         cursor: text;
     }
 
-    .focused {
-        border-color: var(--blue);
-    }
-
     input[type="color"] {
         flex: 0 0 12px;
         width: 12px;
@@ -70,6 +66,10 @@
         border-radius: 2px;
         border: 1px solid var(--black);
         cursor: pointer;
+    }
+
+    .focused, input[type="color"]:focus-visible {
+        border-color: var(--blue);
     }
 
     input::-webkit-color-swatch {

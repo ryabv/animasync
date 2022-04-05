@@ -9,9 +9,13 @@
     export let active;
     export let borderRadius;
 
+    $: containerStyles = objToCssString({
+        display: 'flex',
+        "justify-content": $ev.settingsAlignment,
+    });
+
     $: elementStyles = objToCssString({
         cursor: 'pointer',
-        transition: 'background 0.2s',
         height: height + 'px',
         width: width + '%',
         background: active ? 'var(--blue)' : $ev.skeletonBackground,
@@ -24,7 +28,6 @@
         display: 'flex',
         opacity: active ? 1 : 0,
         visibility: active ? 'visible' : 'hidden',
-        transition: '0.2s',
         left: `calc(100% + ${$ev.containerPadding}px + 20px)`,
         gap: 4 + 'px',
     });
@@ -35,7 +38,6 @@
         padding: '6px 8px',
         opacity: active ? 1 : 0,
         visibility: active ? 'visible' : 'visible',
-        transition: '0.2s',
         right: `calc(100% + ${$ev.containerPadding}px + 20px)`,
         color: 'var(--gray-150)',
         "font-weight": 'bold',
@@ -43,7 +45,7 @@
     });
 </script>
 
-<div class="container">
+<div class="container" style={containerStyles}>
     <div style={percentsStyles}>
         {width}%
     </div>
