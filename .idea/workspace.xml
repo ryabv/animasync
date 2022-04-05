@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62a7a832-f25f-4d24-b58c-99aff501a86e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/shared/assets/AlignCenter.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/editor/model/stores.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/model/stores.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/editor/model/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/model/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/editor/ui/AlignButtons.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/ui/AlignButtons.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/editor/ui/SettingsSection.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/ui/SettingsSection.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/editor/ui/Skeleton.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/ui/Skeleton.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/editor/ui/SkeletonElement.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/ui/SkeletonElement.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/assets/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/assets/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/ColorInput.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/ColorInput.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +49,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/entities/editor/ui" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">

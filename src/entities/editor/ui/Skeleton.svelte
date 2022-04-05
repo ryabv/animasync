@@ -20,7 +20,6 @@
     $: innerStyles = objToCssString({
         display: 'flex',
         "flex-direction": 'column',
-        "align-items": $ev.settingsAlignment,
         gap: $ev.settingsElementsGap + 'px',
         width: '100%',
     });

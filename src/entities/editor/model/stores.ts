@@ -8,7 +8,6 @@ const createEditorValues = () => {
         settingsAnimationSpeed: 1.5,
         settingsLlAppearanceDelay: 1.5,
         settingsElementsGap: 10,
-        settingsElementsBg: '#c4c4c4',
         containerBackground: '#ffffff',
         containerPadding: 20,
         containerBorderRadius: 10,
