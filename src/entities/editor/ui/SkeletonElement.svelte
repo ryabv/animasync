@@ -1,13 +1,21 @@
 <script>
     import { Arrow, Trash } from 'shared/assets/index.ts';
     import { IconButton } from 'shared/ui/index.ts';
-    import { editorValues as ev, objToCssString, elements } from '../model/index.ts';
+    import {
+        editorValues as ev,
+        objToCssString,
+        elements,
+        generateStylesForAnimation
+    } from '../model/index.ts';
 
     export let id;
     export let width;
     export let height;
     export let active;
     export let borderRadius;
+
+    const animationName = `animate${performance.now()}`.replace('.', '');
+    const multiplier = 4;
 
     $: containerStyles = objToCssString({
         display: 'flex',
@@ -18,8 +26,15 @@
         cursor: 'pointer',
         height: height + 'px',
         width: width + '%',
-        background: active ? 'var(--blue)' : $ev.skeletonBackground,
+        background: active ? 'var(--blue)' : `linear-gradient(
+          to right,
+          ${$ev.skeletonBackground} calc(50% - ${$ev.llWidth / 2}px),
+          ${$ev.llBackground} 50%,
+          ${$ev.skeletonBackground} calc(50% + ${$ev.llWidth / 2}px)
+        );`,
+        'background-size': `${multiplier * 100}% auto`,
         "border-radius": borderRadius + 'px',
+        animation: `${animationName} linear ${$ev.settingsAnimationSpeed}s infinite`,
     });
 
     $: controlsStyles = objToCssString({
@@ -42,6 +57,14 @@
         color: 'var(--gray-150)',
         "font-weight": 'bold',
         "font-size": 12 + 'px',
+    });
+
+    $: generateStylesForAnimation({
+        id,
+        containerWidth: $ev.settingsContainerMinWidth,
+        lineWidth: $ev.settingsContainerMinWidth * width / 100,
+        multiplier,
+        animationName,
     });
 </script>
 
