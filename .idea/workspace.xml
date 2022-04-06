@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62a7a832-f25f-4d24-b58c-99aff501a86e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/editor/model/lib.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/model/lib.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/editor/model/stores.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/model/stores.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/editor/ui/SkeletonElement.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/editor/ui/SkeletonElement.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
