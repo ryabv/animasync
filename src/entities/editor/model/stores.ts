@@ -5,7 +5,7 @@ const createEditorValues = () => {
     const { subscribe, update } = writable({
         settingsAlignment: Alignment.LEFT,
         settingsContainerMinWidth: 340,
-        settingsAnimationSpeed: 1.5,
+        settingsAnimationSpeed: 3,
         settingsLlAppearanceDelay: 1.5,
         settingsElementsGap: 10,
         containerBackground: '#ffffff',
@@ -19,7 +19,7 @@ const createEditorValues = () => {
         containerBoxShadowOpacity: 10,
         skeletonBackground: '#f5f5f5',
         skeletonBorderRadius: 5,
-        llWidth: 10,
+        llWidth: 40,
         llBackground: '#c4c4c4',
     });
 
